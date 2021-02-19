@@ -1,12 +1,13 @@
 import './App.scss';
-import { Button } from '@material-ui/core';
+
 import { LayoutContainer } from './containers/layoutContainer/layoutContainer';
+import { LoginContainer } from './containers/login/loginContainer/loginContainer';
 
 function App() {
   return (
     <div className="App">
       <LayoutContainer />
-      <Button />
+      <LoginContainer />
     </div>
   );
 }
