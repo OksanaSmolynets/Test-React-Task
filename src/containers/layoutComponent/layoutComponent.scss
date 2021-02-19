@@ -1,0 +1,27 @@
+@import '/src/styles/styles.scss';
+
+.layout {
+    background: $background-layout;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: -30px;
+}
+
+.bottom-layout {
+    position: sticky;
+    height: 357px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 280px;
+}
+
+.main-layout {
+    position: absolute;
+    height: 601px;
+    width: 766px;
+    left: 0px;
+    max-width: 100%;
+    max-height: auto;
+}
